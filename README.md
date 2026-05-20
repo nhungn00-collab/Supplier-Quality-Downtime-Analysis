@@ -70,4 +70,4 @@ Develop real-time dashboards for:
 
 
 ## Project Website
-👉 (your GitHub Pages link)
+(https://nhungn00-collab.github.io/Supplier-Quality-Downtime-Analysis/)
