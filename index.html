@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Supplier Quality & Downtime Analysis</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+a {
+  color:#38bdf8;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+  border-radius:10px;
+  margin-top:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1> Supplier Quality & Downtime Analysis</h1>
+
+<p style="font-size:18px; color:#94a3b8;">
+Analyzed supplier quality and manufacturing downtime to identify operational risks and improve production efficiency.
+</p>
+
+<!-- PROJECT FILES -->
+<div class="card">
+<h2> Project Assets</h2>
+
+<div class="grid">
+
+<div class="card">
+<h4> Python Analysis</h4>
+<a href="https://github.com/nhungn00-collab/Supplier-Quality-Downtime-Analysis/blob/main/Supplier_quality.ipynb" target="_blank">View Notebook</a>
+</div>
+
+<div class="card">
+<h4> Report</h4>
+<a href="Supplier_Report.pdf" target="_blank">View Report</a>
+</div>
+
+</div>
+
+</div>
+
+<!-- KPI -->
+<div class="card">
+<h2> Key Findings</h2>
+
+<ul>
+<li>Solholding recorded the highest defect volume</li>
+<li>Vendor Plustax generated the highest downtime impact</li>
+<li>Raw Materials category contains the most quality issues</li>
+<li>Detroit, MI plant shows the highest defect concentration</li>
+</ul>
+
+</div>
+
+<!-- HEATMAP -->
+<div class="card">
+<h2> Vendor & Material Defect Analysis</h2>
+
+<img src="supplier_heatmap.png">
+
+<p>
+The heatmap highlights the relationship between suppliers, material types, and operational quality risks.
+</p>
+
+</div>
+
+<!-- INSIGHTS -->
+<div class="card">
+<h2> Business Insights</h2>
+
+<ul>
+<li>Defect severity is more important than defect quantity alone</li>
+<li>Some suppliers create major operational disruption despite fewer defects</li>
+<li>Supplier quality strongly impacts downtime and production efficiency</li>
+<li>Plant-level operational conditions may contribute to defect concentration</li>
+</ul>
+
+</div>
+
+<!-- RECOMMENDATIONS -->
+<div class="card">
+<h2> Recommendations</h2>
+
+<ul>
+<li>Reevaluate high-risk suppliers with excessive downtime impact</li>
+<li>Improve incoming material inspection processes</li>
+<li>Develop real-time operational monitoring dashboards</li>
+<li>Investigate recurring root causes across plants and suppliers</li>
+</ul>
+
+</div>
+
+</body>
+</html>
